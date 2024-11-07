@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        x-purple {
+            visibility: hidden;
+        }
+
+        x-purple:defined {
+            visibility: visible;
+        }
+
+        x-centre {
+            visibility: hidden;
+        }
+
+        x-centre:defined {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <x-purple>
+        <x-centre>This is text in purple and is centered!</x-centre>
+    </x-purple>
+    <script src="custom_element.js"></script>
+</body>
+</html>
